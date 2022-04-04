@@ -1,16 +1,7 @@
 # mobile_weight
 
-A new Flutter project.
+Application for non-operator weighing of cars (trucks)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+After the car travels on the weight, the driver scans the qr code. Then the application displays the weight from the weight in real time (using sockets). After the weight has stabilized, the weigh button appears. The driver presses a button with a weigh in app and the weight is recorded in the TTN.
